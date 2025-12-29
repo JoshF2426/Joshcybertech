@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <div class="brand">Your Name</div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>IT (Cybersecurity) Portfolio</h1>
+      <p>
+        I’m an Information Technology major with a Cybersecurity concentration.
+        This site shows my projects, labs, and skills for internships and job interviews.
+      </p>
+
+      <div class="cta">
+        <a class="btn secondary" href="https://github.com/YOURUSERNAME" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+
+      <div class="badges">
+        <span class="badge">Cybersecurity</span>
+        <span class="badge">Python</span>
+        <span class="badge">Networking</span>
+        <span class="badge">Linux</span>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Project 1 — Home Lab (Coming Soon)</h3>
+          <p>Goal: Build a cybersecurity home lab and document it with screenshots and a diagram.</p>
+          <ul class="meta">
+            <li>Tools: VirtualBox, Kali, Windows, Ubuntu</li>
+            <li>Artifacts: diagram, configs, notes</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Project 2 — Python Log Parser (Coming Soon)</h3>
+          <p>Goal: Write a Python program that reads logs and outputs a security report.</p>
+          <ul class="meta">
+            <li>Skills: parsing, regex, reporting</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Project 3 — Vulnerability Assessment Report (Coming Soon)</h3>
+          <p>Goal: Scan a vulnerable VM and write a professional remediation report.</p>
+          <ul class="meta">
+            <li>Tools: Nmap + vulnerability scanner</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="twoCol">
+        <div class="card">
+          <h3>Technical</h3>
+          <ul>
+            <li>Networking: TCP/IP, DNS, Wireshark</li>
+            <li>Systems: Linux basics, Windows basics</li>
+            <li>Security: scanning, logging, incident response fundamentals</li>
+            <li>Programming: Python (learning), Bash/PowerShell (basic)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Wireshark</li>
+            <li>Nmap</li>
+            <li>Burp Suite (basic)</li>
+            <li>Splunk/ELK (learning)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <h2>Achievements</h2>
+      <div class="card">
+        <ul>
+          <li>IT Major (Cybersecurity Concentration) — In Progress</li>
+          <li>Projects documented on GitHub</li>
+          <li>Hands-on labs and write-ups</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+        <p>GitHub: <a href="https://github.com/YOURUSERNAME" target="_blank" rel="noopener">github.com/YOURUSERNAME</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Your Name. Hosted on GitHub Pages.</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
