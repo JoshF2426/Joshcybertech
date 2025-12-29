@@ -10,12 +10,16 @@
   <header class="container">
     <nav class="nav">
       <div class="brand">Joshua Flores</div>
-      <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#contact">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleMenu()">Menu ▾</button>
+        <div id="dropdownMenu" class="dropdown-content">
+        <a href="#projects" onclick="closeMenu()">Projects</a>
+        <a href="#skills" onclick="closeMenu()">Skills</a>
+        <a href="#achievements" onclick="closeMenu()">Achievements</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
       </div>
+    </div>
+
     </nav>
 
     <section class="hero">
